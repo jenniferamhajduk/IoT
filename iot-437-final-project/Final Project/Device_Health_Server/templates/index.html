@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+   <head>
+      <title>Raspberry Pi Air Quality Monitor Device Details</title>
+   </head>
+   <body>
+      <h1>Current Time:</h1>
+      <h2>{{ time }}</h2>
+      <h1>System Information:</h1>
+      <h2>The operating system is: {{ system }}</h2>
+      <h2>The release of the OS is: {{ release }}</h2>
+      <h2>The version of the OS is: {{ version }}</h2>
+      <h2>The architecture is: {{ machine }}</h2>
+      <h1>CPU Information:</h1>
+      <h2>There temperature of the CPU is: {{ cpu_temp }}</h2>
+      <h2>There are {{ total_cores }} total cores</h2>
+      <h2>The current CPU usage % is: {{ cpu_usage }}</h2>
+      <h1>Memory Information:</h1>
+      <h2>The total memory is: {{ total_memory }}</h2>
+      <h2>The used memory is: {{ ram_usage }}</h2>
+   </body>
+</html>
